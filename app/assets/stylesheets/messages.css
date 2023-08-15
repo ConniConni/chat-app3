@@ -82,26 +82,35 @@
   padding: 40px 40px 0px;
 }
 
-.user-information {
-  padding: 10px 0px 0px 0px;
-  display: flex;
+.message {
+  margin-top: 10px;
 }
 
-.user-name {
-  font-size:16px;
+.upper-message {
+  display:flex;
+}
+
+.name {
+  font-size: 16px;
   color: #434A54;
-  padding: 0px 10px 10px 0px;
+  margin-right: 10px;
 }
-
 .post-time {
   font-size: 12px;
-  color:#999
+  color: #999;
 }
 
-.message {
+.lower-message {
+  margin-top: 10px;
+}
+
+.text {
   font-size: 14px;
   color: #434A54;
+  margin-bottom: 40px;
+
 }
+
 
 .form {
   background-color: #DDDDDD;
