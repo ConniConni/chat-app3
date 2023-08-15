@@ -55,6 +55,25 @@
 .chat-header {
   height: 100px;
   padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-name {
+  font-size: 24px;
+  color: #333;
+  margin-top: 40px;
+}
+
+.close-chat {
+  margin-top: 40px;
+}
+
+.close-chat a{
+  color: darkred;
+  border: 1px solid darkred;
+  text-decoration: none;
+  padding: 20px;
 }
 
 .messages {
@@ -62,6 +81,36 @@
   height: calc(100vh - 100px - 90px);
   padding: 40px 40px 0px;
 }
+
+.message {
+  margin-top: 10px;
+}
+
+.upper-message {
+  display:flex;
+}
+
+.name {
+  font-size: 16px;
+  color: #434A54;
+  margin-right: 10px;
+}
+.post-time {
+  font-size: 12px;
+  color: #999;
+}
+
+.lower-message {
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 14px;
+  color: #434A54;
+  margin-bottom: 40px;
+
+}
+
 
 .form {
   background-color: #DDDDDD;
